@@ -21,7 +21,7 @@ repository               : "https://scholar.google.com/citations?user=6vnhEIgAAA
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile2.jpg"
+  avatar           : "Profile2.jpg"
   name             : "Meng Wang"
   pronouns         : "she/her"  
   bio              : "Hi, I am Meng Wang, an assistant professor in Lingnan University, Hong Kong. My research interests include video coding and data compression"
