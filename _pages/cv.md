@@ -13,7 +13,7 @@ Education
 ======
 * Ph.D in Computer Science, City University of Hong Kong, 2021
 * M.S. in Computer Application Technology, Peking University, 2018
-* B.S. in GitHub, GitHub University, 2012
+* B.S. in Electronical Engineering (Hornor's Program), China Agricultural University, 2015
 
 Work experience
 ======
