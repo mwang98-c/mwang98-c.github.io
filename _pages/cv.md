@@ -17,20 +17,9 @@ Education
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2021 Oct. -- 2024 Aug.: Postdoc Researcher
+  * City University of Hong Kong
+  * Supervisor: Prof. Shiqi Wang 
   
 Skills
 ======
