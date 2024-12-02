@@ -21,18 +21,14 @@ Work experience
   * City University of Hong Kong
   * Supervisor: Prof. Shiqi Wang 
   
-Skills
+Research interests
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Video Compression
+* AI-based Compression
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
+  <ul>{% [for post in site.publications reversed](https://scholar.google.com/citations?user=6vnhEIgAAAAJ&hl=zh-CN) %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
