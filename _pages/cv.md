@@ -30,20 +30,28 @@ Publications
 ======
   <ul>{% [for post in site.publications reversed](https://scholar.google.com/citations?user=6vnhEIgAAAAJ&hl=zh-CN) %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+  {% endfor %}</ul>  
   
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  * CDS 534: Database Management
+  * CDS 521: Foundation of Artificial Intelligence
   
-Service and leadership
+Professional activities
 ======
-* Currently signed in to 43 different slack teams
+* Special Session:
+  * IEEE MMSP 2024, organizer of "Exploring Generative AI Technologies in Multimedia Signal Processing"
+* Reviewers:
+  * IEEE Transactions on Image Processing (T-IP)
+  * IEEE Transactions on Circuits and Systems for Video Technology (T-CSVT)
+  * IEEE Transactions on Multimedia (T-MM)
+  * IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI)
+  * Journal of Visual Communication and Image Representation
+  * IEEE Signal Processing Letters (SPL)
+  * ACM International Conference on Multimedia (ACM MM)
+  * IEEE International Conference on Multimedia and Expo (ICME)
+  * IEEE Picture Coding Symposium (PCS)
+  * IEEE International Symposium on Circuits and Systems (ISCAS)
+  * IEEE The International Conference on Acoustics, Speech, \& Signal Processing (ICASSP)
+  * IEEE International Conference on Visual Communications and Image Processing (VCIP)
+  * IEEE International Workshop on Multimedia Signal Processing (MMSP)
