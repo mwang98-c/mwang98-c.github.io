@@ -28,9 +28,7 @@ Research interests
 
 Publications
 ======
-  <ul>{% [for post in site.publications reversed](https://scholar.google.com/citations?user=6vnhEIgAAAAJ&hl=zh-CN) %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>  
+
   
 Teaching
 ======
