@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Prof. WANG Meng – Homepage</title>
+  <meta name="description" content="Your Name – academic homepage" />
+  <style>
+    :root{
+      --bg:#ffffff;--fg:#111;--muted:#555;--link:#0a58ca;--chip:#f3f4f6;--border:#e5e7eb;--accent:#111827;
+      --maxw:1100px;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;color:var(--fg);background:var(--bg)}
+    a{color:var(--link);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:var(--maxw);margin:0 auto;padding:24px}
+    header{display:grid;grid-template-columns:120px 1fr;gap:20px;align-items:center;padding-bottom:16px;border-bottom:1px solid var(--border)}
+    header img{width:120px;height:200px;object-fit:cover;border-radius:8px;border:1px solid var(--border)}
+    .title h1{margin:0 0 6px;font-size:2rem;line-height:1.2}
+    .title .role{color:var(--muted)}
+    .chips{margin-top:8px;display:flex;flex-wrap:wrap;gap:8px}
+    .chip{background:var(--chip);padding:4px 10px;border-radius:999px;font-size:.9rem;border:1px solid var(--border)}
+    nav{position:sticky;top:0;background:var(--bg);z-index:10;border-bottom:1px solid var(--border)}
+    nav .navwrap{max-width:var(--maxw);margin:0 auto;display:flex;gap:18px;padding:10px 24px;overflow:auto}
+    nav a{padding:6px 0;color:var(--accent);font-weight:600;white-space:nowrap}
+    main{display:grid;grid-template-columns:260px 1fr;gap:28px;margin-top:20px}
+    aside{position:sticky;top:58px;height:fit-content;border:1px solid var(--border);border-radius:12px;padding:14px}
+    aside h3{margin:4px 0 8px;font-size:1rem}
+    .links{display:grid;gap:8px}
+    .links a{display:inline-flex;align-items:center;gap:8px}
+    section{padding-bottom:28px;border-bottom:1px dashed var(--border)}
+    section:last-child{border-bottom:none}
+    h2{margin:0 0 12px;font-size:1.4rem}
+    .news li{margin:0 0 6px}
+    .pubs li{margin:0 0 10px}
+    .pubs .venue{color:var(--muted)}
+    .grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+    .item{border:1px solid var(--border);border-radius:10px;padding:12px}
+    footer{margin:32px 0;color:var(--muted);font-size:.9rem}
+    @media (max-width: 900px){ main{grid-template-columns:1fr} aside{position:static} header{grid-template-columns:80px 1fr} header img{width:80px;height:80px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <img src="avatar.jpg" alt="Your portrait" />
+      <div class="title">
+        <h1> Meng Wang (王萌)</h1>
+        <div class="role">Assistant Professor, School of Data Science, Lingnan University, Hong Kong</div>
+        <div class="chips">
+          <span class="chip">Video compression</span>
+          <span class="chip">Generative Compression</span>
+          <span class="chip">Signal Processing</span>
+          <span class="chip">IQA/AGC</span>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <nav>
+    <div class="navwrap">
+      <a href="#intro">Introduction</a>
+      <a href="#news">Recruitment!!</a>
+      <!-- <a href="#publications">Publications</a> -->
+      <!-- <a href="#students">Students</a> -->
+      <a href="#services">Service</a>
+      <a href="#honors">Honors</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <div class="wrap">
+    <main>
+      <aside>
+        <h3>Quick Links</h3>
+        <div class="links">
+          <a href="https://scholar.google.com/citations?user=6vnhEIgAAAAJ&hl=zh-CN" target="_blank" rel="noreferrer">Google Scholar</a>
+          <a href="https://orcid.org/0000-0002-5655-1464" target="_blank" rel="noreferrer">DBLP</a>
+          <a href="cv_nov.pdf" target="_blank" rel="noreferrer">CV (PDF)</a>
+          <a href="mengwang7@ln.edu.hk">Email</a>
+        </div>
+        <h3 style="margin-top:14px">Affiliations</h3>
+        <div class="links">
+          <a href="https://www.ln.edu.hk/sds">School of Data Science</a>
+          <a href="https://www.ln.edu.hk/">Lingnan University</a>
+        </div>
+      </aside>
+
+      <div>
+        <section id="intro">
+          <h2>Introduction</h2>
+          <p style="text-align: justify;">
+            WANG Meng has been deeply engaged in the field of video compression and artificial intelligence for more than ten years. 
+            Her research interests span a wide range of advanced technologies, with a particular focus on artificial intelligence-based coding, generative coding, 
+            next-generation video coding standards, and video coding optimizations. 
+            She has authored and co-authored more than 60 international journal and conference papers (including 31 IEEE Transaction papers). 
+            She has been actively involved in the development of coding standards, including VVC, AVS3, and JPEG-AI (a new-generation neural-network based image coding standard),
+            where 27 of her technical proposals are adopted including significant modifications on core coding modules. 
+            These standards are widely used in various industries, from multimedia and entertainment to communication and surveillance. 
+            She is serving as an associate editor of IEEE T-CSVT. She has successfully secured the Hong Kong RGC Early Career Scheme (ECS) grant in her first eligible year. 
+            The total citations reach over 1000 according to Google Scholar.
+          </p>
+          <div class="grid2">
+            <div class="item">
+              <strong>Professional Experiences </strong>
+              <ul>
+                <li>2024 – Now · Assistant Professor, Lingnan Univesity</li>
+                <li>2021 – 2024 · Postdoc Researcher, City University of Hong Kong</li>
+              </ul>
+            </div>
+            <div class="item">
+              <strong>Education</strong>
+              <ul>
+                <li>2018-2021 · Ph.D in Computer Science, City University of Hong Kong </li>
+                <li>2015-2018 · M.S. in Computer Application Technology, Peking University </li>
+                <li>2021-2015 · B.Sc. Electronic Information Engineering (Honors Program), China Agricultural University </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section id="news">
+          <h2> <b style="color:red;"> Recruitment!! </b> </h2>
+          <ul class="news">
+            <li> We are looking for highly motivated <b>PhD students, MPhil students, and assistant researchers </b> 
+              to join our team working on computer vsion, video compression, 
+              large language vision models, 3D scene reconstruction and generative media systems. </li>
+            <li> Successful Mphil/PhD candidates will be provided with a <a href="https://www.ln.edu.hk/rpg/admission/financial-support" target="_blank">full scholarship </a> . If you are passionate about pushing 
+              the frontier of intelligent visual communication, please send your CV, transcript, and representative works to: mengwang7 at ln.edu.hk</li>
+
+          </ul>
+        </section>
+
+        <!-- <section id="publications">
+          <h2>Selected Publications</h2>
+          <ol class="pubs">
+            <li>
+              <strong>Paper Title</strong><br/>
+              <span class="venue">IEEE TPAMI, 2025</span><br/>
+              with A. Coauthor, B. Coauthor ·
+              <a href="#">paper</a> · <a href="#">code</a> · <a href="#">bibtex</a>
+            </li>
+            <li>
+              <strong>Another Work on Generative Compression</strong><br/>
+              <span class="venue">CVPR, 2024</span><br/>
+              with ... · <a href="#">paper</a> · <a href="#">project</a>
+            </li>
+          </ol>
+        </section> -->
+
+        <!-- <section id="students">
+          <h2>Students</h2>
+          <ul>
+            <li> Mr. XIAO Kang (PhD, 2025– )</li>
+            <li> Mr. WANG Junwei (PhD, 2025-)</li>
+          </ul>
+        </section> -->
+
+        <section id="services">
+          <h2>Professional Service</h2>
+          <ul>
+            <h3> Editorial Services </h3>
+            <ul>
+            <li>Associate Editor, IEEE Transactions on Circuits and Systems for Video Technology </li>
+            </ul>
+            <h3>Journal and Conference Reviewers</h3>
+            <ul>
+              <li> IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) </li>
+              <li> IEEE Transactions on Image Processing (TIP) </li>
+              <li> IEEE Transactions on Multimedia (TMM) </li>
+              <li> IEEE Transactions on Circuits and Systems for Video Technology (TCSVT) </li>
+              <li> Journal of Visual Communication and Image Representation </li>
+              <li> IEEE Signal Processing Letter </li>
+              <li> IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR) </li>
+              <li> ACM International Conference on Multimedia (ACM MM) </li>
+            </ul>
+          </ul>
+        </section>
+
+        <section id="honors">
+          <h2>Honors</h2>
+          <ul>
+            <li>LU Research & Knowledge Transfer Fund Award 2025 (RGC Grant) </li>
+            <li>Top Performance Award in the VVC Encoder-only Track of The Grand Challenge on Neural Network-based Video Coding in IEEE ISCAS (2025) </li>
+            <li>Top Performance Award in the Hybrid Track of The Grand Challenge on Neural Network-based Video Coding in IEEE ISCAS (2024)  </li>
+            <li>Top Performance Award in the End-to-end Track of The Grand Challenge on Neural Network-based Video Coding in IEEE ISCAS (2024)
+  </li>
+            <li> Top Performance Award in the VVC Encoder-only Track of The Grand Challenge on Neural Network-based Video Coding in IEEE ISCAS (2024) </li>
+            <li> Silver Medal, 48th International Exhibition of Inventions Geneva (2023) </li>
+            <li> Technology Innovation Award in ChinaMM (2022) </li>
+            <li> AVS Industry Technology Innovation Award (2019/2021) </li>
+            <li> Outstanding Academic Performance Award in City University of Hong Kong (2020) </li>
+            <li> Research Tuition Scholarship in City University of Hong Kong (2020) </li>
+          </ul>
+        </section>
+
+        <section id="teaching">
+          <h2>Teaching</h2>
+          <ul>
+            <li>2024 CDS534: Database Management</li>
+            <li>2025 CDS521: Foundation of Artificial Intelligence</li>
+          </ul>
+        </section>
+
+        <section id="contact">
+          <h2>Contact</h2>
+          <p>
+            <strong>Office</strong>:  Unit A, 1/F, Lingnan Hub, Lingnan University 8 Castle Peak Rd, Tuen Mun, Hong Kong <br/>
+            <strong>Phone</strong>: (852) 26168136  <br/>
+            <strong>Email</strong>: mengwang7 at ln.edu.hk
+          </p>
+        </section>
+
+        <footer>
+          © <span id="y"></span> Meng Wang · Last updated <span id="d"></span>
+        </footer>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    const d=new Date();
+    document.getElementById('y').textContent=d.getFullYear();
+    document.getElementById('d').textContent=d.toISOString().slice(0,10);
+  </script>
+</body>
+</html>
